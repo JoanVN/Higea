@@ -4,9 +4,9 @@ import "../styles/CTASection.css";
 const CTASection = () => {
   return (
     <section id="ctaSection" className="cta-section container-fluid d-flex align-items-center">
-      <div className="row w-100 align-items-center justify-content-between">
+      <div className="row w-100 align-items-center justify-content-center">
         {/* Text Section */}
-        <div className="col-12 col-lg-6 text-center text-lg-start px-4">
+        <div className="col-12 col-lg-6 text-center text-lg-start px-4 mb-4 mb-lg-0">
           <h1 className="cta-title">
             Simplifica el acceso a la información de medicamentos con Higea
           </h1>
@@ -15,7 +15,7 @@ const CTASection = () => {
         {/* Contact Form */}
         <div className="col-12 col-lg-6 d-flex justify-content-center mt-4 mt-lg-0">
           <form className="cta-form shadow-lg rounded">
-            <div className="mb-3">
+            <div className="mb-3 text-start">
               <label htmlFor="name" className="form-label">
                 Nombre
               </label>
@@ -26,7 +26,7 @@ const CTASection = () => {
                 placeholder="Tu nombre"
               />
             </div>
-            <div className="mb-3">
+            <div className="mb-3 text-start">
               <label htmlFor="email" className="form-label">
                 E-mail
               </label>
@@ -37,7 +37,7 @@ const CTASection = () => {
                 placeholder="Tu correo electrónico"
               />
             </div>
-            <div className="mb-3">
+            <div className="mb-3 text-start">
               <label htmlFor="company" className="form-label">
                 Empresa
               </label>
@@ -48,7 +48,7 @@ const CTASection = () => {
                 placeholder="Nombre de la empresa"
               />
             </div>
-            <div className="mb-4">
+            <div className="mb-4 text-start">
               <label htmlFor="message" className="form-label">
                 Mensaje
               </label>
