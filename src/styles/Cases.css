@@ -1,0 +1,97 @@
+/* Use Cases Section */
+body {
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+  }
+  
+  .use-cases-section {
+    padding: 80px 20px; /* Slightly larger padding for visual spacing */
+    background: #ffffff;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 16px;
+  }
+  
+  .section-subtitle {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #212529;
+    margin-bottom: 40px;
+  }
+  
+  /* Use Case Item */
+  .use-case-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 60px;
+  }
+  
+  /* Text Section */
+  .use-case-title {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #212529;
+    margin-bottom: 12px;
+  }
+  
+  .use-case-description {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #212529;
+    max-width: 500px; /* Limit text width to half the screen */
+  }
+  
+  /* Image Placeholder */
+  .image-placeholder img {
+    width: 343px;
+    height: 273px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .use-case-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .use-case-title {
+      font-size: 1.5rem;
+    }
+  
+    .use-case-description {
+      font-size: 0.9rem;
+      max-width: 100%; /* Allow full width on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .section-title {
+      font-size: 2rem;
+    }
+  
+    .section-subtitle {
+      font-size: 1rem;
+    }
+  
+    .use-case-title {
+      font-size: 1.2rem;
+    }
+  
+    .use-case-description {
+      font-size: 0.9rem;
+    }
+  }
+  

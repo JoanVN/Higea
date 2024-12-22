@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 40px 20px; /* Larger padding for more visual spacing */
+  background: #ffffff;
+  min-height: 70vh;
+}
+
+/* Title Styles */
+.hero-title {
+  font-weight: 1000;
+  font-size: 6rem; /* Larger for desktops */
+  line-height: 1.2;
+  color: #00693e;
+}
+
+/* Subtitle Styles */
+.hero-subtitle {
+  font-weight: 400;
+  font-size: 1.2rem; /* More readable text */
+  line-height: 1.6;
+  color: #00693e;
+}
+
+/* Button Styles */
+.btn-custom {
+  background-color: #ffe492;
+  color: #00693e;
+  font-weight: 500;
+  font-size: 1.1rem; /* Slightly larger button text */
+  padding: 15px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Space between text and arrow */
+}
+
+.btn-custom:hover {
+  background-color: #ffd65e; /* Darker yellow */
+  color: #004d2e; /* Dark green text */
+  transform: translateY(-3px); /* Lift effect */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Image Placeholder */
+.hero-image img {
+  max-width: 90%; /* Dynamic sizing for larger screens */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem; /* Adjusted for tablets */
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    text-align: center; /* Center align text */
+    padding: 30px 15px; /* Even smaller padding for tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2rem; /* Adjusted for phones */
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .btn-custom {
+    font-size: 0.9rem;
+    padding: 12px 16px;
+  }
+
+  .hero-image img {
+    max-width: 100%; /* Full width on small screens */
+  }
+
+  .hero-section {
+    padding: 20px 10px; /* Smallest padding for phones */
+  }
+}

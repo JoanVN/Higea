@@ -1,0 +1,80 @@
+/* Solutions Section */
+.solutions-section {
+  background: #ffffff;
+  padding: 80px 20px;
+}
+
+/* Titles */
+.solution-title {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 16px;
+}
+
+/* Descriptions */
+.solution-description {
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #212529;
+  max-width: 500px; /* Limit the description width */
+}
+
+/* Images */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CTA Button */
+.btn-custom {
+  background-color: #ffe492;
+  color: #00693e;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #ffd65e;
+  color: #004d2e;
+  transform: translateY(-3px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .solution-title {
+    font-size: 1.5rem;
+  }
+
+  .solution-description {
+    font-size: 0.9rem;
+    max-width: 100%; /* Full width for smaller screens */
+  }
+
+  .btn-custom {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .solution-title {
+    font-size: 1.2rem;
+  }
+
+  .solution-description {
+    font-size: 0.9rem;
+  }
+
+  .btn-custom {
+    padding: 8px 12px;
+  }
+}

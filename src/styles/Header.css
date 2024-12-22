@@ -1,0 +1,47 @@
+/* General Settings */
+body {
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    padding-top: 100px; /* Adjusted for fixed header height */
+  }
+
+  .navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0;
+  }
+  
+  @media (min-width: 992px) {
+    .navbar {
+      --bs-navbar-padding-y: 1rem; /* Restore padding for desktop */
+    }
+  }
+
+  /* Navbar Links */
+  .nav-link {
+    color: #00693e !important; /* Green text */
+    font-weight: 600;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button Style */
+  .custom-btn {
+    background-color: #ffe492; /* Yellow background */
+    color: #00693e; /* Green text */
+    font-weight: 600;
+    border: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .custom-btn:hover {
+    background-color: #ffd65e; /* Slightly darker yellow */
+    color: #004d2e; /* Dark green text */
+  }
+
+  /* Offset Scroll for Fixed Header */
+  section[id] {
+    scroll-margin-top: 80px; /* Prevent content from being hidden behind header */
+  }
+  

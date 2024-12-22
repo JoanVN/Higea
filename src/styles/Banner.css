@@ -1,0 +1,79 @@
+/* Banner Section */
+body {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+  }
+
+.banner-section {
+    background: #00693e;
+    color: #ffffff;
+    padding: 50px 20px; /* Reduced padding */
+    min-height: 40vh; /* Reduced height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Banner Title */
+  .banner-title {
+    font-weight: 700;
+    font-size: 2.5rem; /* Smaller font size */
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+  
+  /* Banner Subtitle */
+  .banner-subtitle {
+    font-weight: 400;
+    font-size: 1.1rem; /* Slightly smaller text */
+    line-height: 1.6;
+    text-align: center;
+    max-width: 700px; /* Reduced width */
+    margin: 0 auto;
+  }
+  
+  /* CTA Button */
+  .btn-custom {
+    font-size: 1rem;
+    padding: 12px 20px; /* Smaller button padding */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .banner-title {
+      font-size: 2rem;
+    }
+  
+    .banner-subtitle {
+      font-size: 1rem;
+    }
+  
+    .btn-custom {
+      font-size: 0.9rem;
+      padding: 10px 16px;
+    }
+  
+    .banner-section {
+      padding: 40px 15px; /* Smaller padding for tablets */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .banner-title {
+      font-size: 1.8rem;
+    }
+  
+    .banner-subtitle {
+      font-size: 0.9rem;
+    }
+  
+    .btn-custom {
+      font-size: 0.8rem;
+      padding: 10px 14px;
+    }
+  
+    .banner-section {
+      padding: 30px 10px; /* Smaller padding for phones */
+    }
+  }
+  

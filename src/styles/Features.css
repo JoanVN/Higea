@@ -1,0 +1,78 @@
+/* Features Section */
+body {
+  scroll-behavior: smooth; /* Smooth scrolling effect */
+}
+
+.features-section {
+    background: #ffffff;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-family: "Inter", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #00693e;
+  }
+  
+  /* Feature Card */
+  .feature-card {
+    width: 100%; /* Full width for carousel items */
+    height: 325px;
+    border-radius: 10px;
+    padding: 60px 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Center align content */
+  }
+  
+  /* Hover Effects */
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Feature Title */
+  .feature-title {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  /* Feature Description */
+  .feature-description {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  /* Swiper Navigation Arrows */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #00693e; /* Arrow colors */
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    color: #004d29; /* Darker on hover */
+  }
+  
+  /* Pagination Dots */
+  .swiper-pagination-bullet {
+    background: #00693e !important; /* Dot color */
+    opacity: 0.6;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #004d29 !important; /* Active dot */
+    opacity: 1;
+  }
+  /* Feature Icon */
+.feature-icon {
+    margin-top: 20px;
+    text-align: center;
+}
+  

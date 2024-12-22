@@ -1,0 +1,119 @@
+/* CTA Section */
+body {
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+  }
+
+.cta-section {
+    padding: 40px 20px;
+    background: #00693e;
+    min-height: 50vh;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Background Waves */
+  .cta-section::before {
+    content: "";
+    position: absolute;
+    width: 2041.06px;
+    height: 700.4px;
+    left: -60px;
+    top: 10px;
+    opacity: 0.3;
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 80%
+    );
+    z-index: 0;
+  }
+  
+  /* Title Styles */
+  .cta-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    z-index: 2;
+  }
+  
+  /* Form Styles */
+  .cta-form {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    width: 100%;
+    max-width: 500px;
+    z-index: 2;
+  }
+  
+  .cta-form .form-control {
+    height: 48px;
+    padding: 12px 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+  }
+  
+  .cta-form textarea {
+    min-height: 100px;
+    resize: none;
+  }
+  
+  .cta-form label {
+    font-size: 0.9rem;
+    color: #1e1e1e;
+    font-weight: 500;
+  }
+  
+  /* Submit Button */
+  .btn-custom {
+    background-color: #ffe492;
+    color: #00693e;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 12px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: none;
+  }
+  
+  .btn-custom:hover {
+    background-color: #ffd65e;
+    color: #004d2e;
+    transform: translateY(-3px);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .cta-title {
+      font-size: 2rem;
+    }
+  
+    .cta-section {
+      padding: 40px 15px;
+      text-align: center;
+    }
+  
+    .cta-form {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .cta-title {
+      font-size: 1.8rem;
+    }
+  
+    .cta-form .form-control {
+      height: 40px;
+      padding: 10px 12px;
+    }
+  
+    .btn-custom {
+      font-size: 0.9rem;
+      padding: 10px 14px;
+    }
+  }
+  
