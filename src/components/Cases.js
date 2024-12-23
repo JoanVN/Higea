@@ -7,19 +7,19 @@ const UseCases = () => {
       title: "Pacientes",
       description:
         "Consulta rápidamente información clara sobre medicamentos, como dosificación, interacciones y efectos secundarios.",
-      image: "./pacientes copy.png",
+      image: "./patients.png",
     },
     {
       title: "Profesionales sanitarios",
       description:
         "Accede a información técnica detallada y actualizada en segundos, optimizando la toma de decisiones clínicas. Herramientas intuitivas que mejoran la eficiencia en entornos de alta presión.",
-      image: "https://via.placeholder.com/343x273",
+      image: "./profesionales.png",
     },
     {
       title: "Compañías farmacéuticas",
       description:
         "Garantiza el cumplimiento normativo con prospectos inmutables y trazables mediante blockchain. Facilita la gestión de información confiable y actualizada para sus productos.",
-      image: "https://via.placeholder.com/343x273",
+      image: "./farma.png",
     },
   ];
 
