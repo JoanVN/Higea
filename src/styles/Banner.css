@@ -1,8 +1,4 @@
 /* Banner Section */
-body {
-    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
-  }
-
 .banner-section {
     background: #00693e;
     color: #ffffff;

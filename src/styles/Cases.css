@@ -1,8 +1,4 @@
 /* Use Cases Section */
-body {
-    scroll-behavior: smooth; /* Smooth scrolling effect */
-  }
-  
   .use-cases-section {
     padding: 80px 20px; /* Slightly larger padding for visual spacing */
     background: #ffffff;
